@@ -52,6 +52,10 @@ class _MyHomePageState extends State<MyHomePage> {
               initialValue: number,
               textFieldController: controller,
               inputBorder: OutlineInputBorder(),
+                selectorConfig: SelectorConfig(
+                  selectorType: PhoneInputSelectorType
+                      .BOTTOM_SHEET,
+                )
             ),
             RaisedButton(
               onPressed: () {

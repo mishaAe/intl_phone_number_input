@@ -326,7 +326,7 @@ class _InputWidgetView
               ),
             ],
           ),
-          SizedBox(width: 12),
+          SizedBox(width: 4),
           Flexible(
             child: TextFormField(
               key: Key(TestHelper.TextInputKeyValue),

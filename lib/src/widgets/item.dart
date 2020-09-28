@@ -30,7 +30,7 @@ class Item extends StatelessWidget {
             showFlag: showFlag,
             useEmoji: useEmoji,
           ),
-          SizedBox(width: 12.0),
+          SizedBox(width: 4.0),
           Text(
             '${(country?.dialCode ?? '').padRight(5, "   ")}',
             textDirection: TextDirection.ltr,
