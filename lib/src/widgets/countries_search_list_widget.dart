@@ -90,7 +90,7 @@ class _CountrySearchListWidgetState extends State<CountrySearchListWidget> {
                 setState(() => filteredCountries = filterCountries()),
           ),
         ),
-        Expanded(
+        Flexible(
           child: ListView.builder(
             controller: widget.scrollController,
             shrinkWrap: true,
